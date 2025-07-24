@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
   margin: 0 auto;
+  font-family: "Noto Serif", serif;
   /* padding: 0; */
+  scroll-behavior: smooth;
 }
 .container {
   max-width: 1140px;
@@ -110,6 +112,9 @@ nav i{
   align-items: center;
   margin: 13px 0px;
 }
+.orange-color{
+  color: rgb(233, 90, 8);
+}
 .banner-left h2{
   font-size: 65px;
   font-weight: 700;
@@ -142,7 +147,7 @@ text-align: left;
 /* plants */
 .plants{
   max-width: 1140px;
-  height: 1186.88px;
+  height: 1010px;
 left: 150px;
 top: 802px;
 border: 2px solid red;
@@ -152,7 +157,7 @@ border: 2px solid red;
   max-width: 1140px;
   max-height: 138px;
 }
-.plants h2{
+.plants-title h2{
   width: 1140px;
   height: 68px;
   margin: 16px 0px;
@@ -164,7 +169,7 @@ line-height: 68px;
 letter-spacing: 0%;
 text-align: center;
 }
-.plants p{
+.plants-title p{
   width: 888px;
   height: 54px;
   gap: 16;
@@ -175,5 +180,44 @@ font-weight: 400;
 line-height: 27px;
 letter-spacing: 0%;
 text-align: center;
+}
+.flower-card{
+display: grid;
+grid-template-columns: repeat(4 ,1fr);
+gap: 20px;
+}
+.flower-card-1to8{
+  max-width: 270px;
+max-height: 484.94px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 30;
+padding: 0px;
+margin: 0px 20px;
+}
+.flower-card-1to8 img{
+  max-width: 275px;
+  max-height: 280px;
+  margin-bottom: 30px;
+}
 
+.description-tk-button{
+max-width: 270px;
+max-height: 132px;
+  padding: 5px 69px 5px;
+}
+
+.btn-orange{
+  padding: 16px 19px;
+  max-width: 270px;
+  max-height: 50px;
+  gap: 10px;
+  margin: 5px auto;
+  color: rgb(255, 255, 255);
+  background-color: rgb(233, 90, 8);
+  flex-direction: row;
+justify-content: center;
+align-items: center;
 }
