@@ -138,3 +138,42 @@ text-align: left;
   max-width: 570px;
   max-height: 355px;
 }
+
+/* plants */
+.plants{
+  max-width: 1140px;
+  height: 1186.88px;
+left: 150px;
+top: 802px;
+border: 2px solid red;
+  margin-top: 120px;
+}
+.plants-title{
+  max-width: 1140px;
+  max-height: 138px;
+}
+.plants h2{
+  width: 1140px;
+  height: 68px;
+  margin: 16px 0px;
+  gap: 16;
+  /* font-family: Noto Serif; */
+font-size: 50px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+}
+.plants p{
+  width: 888px;
+  height: 54px;
+  gap: 16;
+  color: rgba(0, 0, 0, 0.5);
+/* font-family: Inter; */
+font-size: 22px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+
+}
