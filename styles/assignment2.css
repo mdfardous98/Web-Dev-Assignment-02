@@ -658,3 +658,45 @@ nav i {
   text-align: left;
   text-decoration-line: underline;
 }
+
+
+/* responsive */
+
+
+@media screen and (max-width: 576px) {
+
+  nav ul.linkhide{
+    display: none;
+  }
+ .banner{
+  flex-direction: column;
+  align-items: center;
+ }
+ .banner-left{
+   align-items: flex-start;
+   padding: 10px;
+   margin: 20px 0;
+ }
+ .banner-left h2, .banner-left p{
+  width: 100%;
+  text-align: left;
+ }
+ .banner img{
+  order: -1;
+  width: 100%;
+  height: auto;
+ }
+
+
+
+
+
+
+
+
+  
+}
+  
+
+
+
