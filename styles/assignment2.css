@@ -367,13 +367,7 @@ nav i {
 
 .logo {
   border: 2px solid yellowgreen;
-
-  /* display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: flex-start;
-padding: 0px; */
-  /* margin: 48px 0px; */
+  margin-top: 50px;
 }
 .logo-footer {
   max-width: 1140px;
@@ -475,4 +469,184 @@ align-items: center; */
 }
 .media-icon a:hover {
   color: #f4550e;
+}
+
+.latest {
+  margin-top: 130px;
+  max-width: 1440px;
+  max-height: 138px;
+  display: grid;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.latest h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.latest p {
+  max-width: 888px;
+  max-height: 54px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.deals {
+  border: 2px solid violet;
+  margin-top: 50px;
+  width: 1140px;
+  height: 425px;
+}
+.plantnow {
+  display: flex;
+}
+.card {
+  display: grid;
+  width: ;
+}
+.card1 {
+  background-image: url(..//assets/deal-bloom.png);
+  background-size: cover;
+  background-position: center;
+  width: 366.22px;
+  height: 206px;
+  left: 0;
+  top: -5px;
+  color: rgba(0, 0, 0, 0.4);
+  margin: 2px 0px;
+}
+
+.card1 p {
+  width: 270px;
+  height: 27px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px;
+  padding-top: 90px;
+}
+.card1 span {
+  width: 250px;
+  height: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 26px 50px 26px 50px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.card2 {
+  background-image: url(../assets/deal-ana.png);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  display: block;
+  background-repeat: no-repeat;
+  width: 366.22px;
+  height: 200px;
+  left: 1px;
+  top: px;
+  color: rgba(0, 0, 0, 0.4);
+  margin: 2px 0px;
+}
+
+.card2 p {
+  width: 270px;
+  height: 27px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px;
+  padding-top: 90px;
+}
+.card2 span {
+  width: 250px;
+  height: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 26px 50px 26px 50px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.card3 {
+  background-image: url(../assets/deal-zabo.png);
+  background-size: cover;
+  background-position: center;
+  position: static;
+  width: 753px;
+  height: 423.13px;
+}
+
+.card3 p {
+  width: 270px;
+  height: 27px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: px 250px;
+  padding-top: 215px;
+}
+.card3 span {
+  width: 250px;
+  height: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 26px 50px 26px 50px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
 }
