@@ -779,156 +779,221 @@ nav i {
     height: 396px;
     margin-top: 280px;
   }
-.plantlover-title{
-   max-width: 361px;
-  max-height: 234px;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 16px;
-  padding: 0px;
-  margin: 18px 0px;
-}
+  .plantlover-title {
+    max-width: 361px;
+    max-height: 234px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px;
+    margin: 18px 0px;
+  }
 
-.plantlover-title h2 {
-  max-width: 330px;
-  max-height: 100px;
-  display: flex;
-  gap: 16;
-  color: rgb(0, 0, 0);
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0%;
-  text-align: left;
-  flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-}
-.plantlover-title ul li p {
-  max-width: 361px;
-  max-height: 210px;
-  gap: 20px;
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 17px;
-  letter-spacing: 0%;
-  text-align: left;
-  margin: 20px auto;
-}
-.plantlover-title ul {
-  max-width: 361px;
-  max-height: 51px;
-}
-.plant-image{
-  width: 100%;
-  height: auto;
-}
-.trusted-badge{
-  display: none;
-}
+  .plantlover-title h2 {
+    max-width: 330px;
+    max-height: 100px;
+    display: flex;
+    gap: 16;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .plantlover-title ul li p {
+    max-width: 361px;
+    max-height: 210px;
+    gap: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 20px auto;
+  }
+  .plantlover-title ul {
+    max-width: 361px;
+    max-height: 51px;
+  }
+  .plant-image {
+    width: 100%;
+    height: auto;
+  }
+  .trusted-badge {
+    display: none;
+  }
 
+  .latest {
+    width: 393px;
+    height: 117px;
+    margin-top: 420px;
+    margin-bottom: 20px;
+  }
+  .latest h2 {
+    width: 393px;
+    height: 33px;
+    margin: 16px 0px;
+    gap: 16;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .latest p {
+    width: 336px;
+    height: 68px;
+    gap: 16;
+    padding: 0px;
+    margin: 0px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .deals {
+    display: grid;
+  }
 
-
-
-.latest{
-  width: 393px;
-  height: 117px;
-  margin-top: 420px;
-  margin-bottom: 100px;
-}
-.latest h2{
-  width: 393px;
-  height: 33px;
-  margin: 16px 0px;
-  gap: 16;
-  font-size: 24px;
-font-weight: 700;
-line-height: 33px;
-letter-spacing: 0%;
-text-align: center;
-}
-.latest p{
-  width: 336px;
-height: 68px;
-gap: 16;
-padding: 0px;
-margin: 16px 0px;
-font-size: 14px;
-font-weight: 400;
-line-height: 17px;
-letter-spacing: 0%;
-text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-/*  */
-
-/* .plantnow {
+  .plantnow,
+  .card,
+  .card1,
+  .card2 {
+    display: grid;
     flex-direction: column;
     align-items: center;
   }
 
-  .card,
-  .card3 {
-    width: 100%;
-    margin-bottom: 20px;
+  .plantnow {
+    width: 380px;
+    height: 350px;
   }
 
-  .card1,
-  .card2,
+  .card1 {
+    width: 366.22px;
+    height: 206px;
+    left: 30px;
+    top: -5px;
+    padding: 0px 0px;
+  }
+  .card2 {
+    width: 366.22px;
+    height: 206px;
+    left: 0;
+    top: -5px;
+  }
   .card3 {
-    width: 100%;
-    height: auto;
-    background-size: cover;
-  } */
+    width: 361px;
+    height: 177px;
+    left: 0;
+    top: -5px;
+  }
 
+  .logo {
+    width: 359px;
+    height: 765px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20;
+    padding: 0px;
+    margin: 48px 0px;
+  }
 
-  /*  */
+  .logo-footer {
+    display: flex;
+    grid-template-columns: repeat(fr);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 250px;
+  }
 
+  .logo-description {
+    margin-bottom: 0px;
+    width: 359px;
+    height: 25px;
+  }
 
-   /* .plantnow {
+  .link1 {
+    width: 85px;
+    height: 248px;
+    margin-top: 20px;
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+    padding-right: 274px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 2px 0px;
+  }
+
+  .link2 {
+    width: 128px;
+    height: 248px;
+    display: grid;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0;
+    padding-right: 280px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 20px 0px;
+  }
+  .link {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     flex-direction: column;
   }
+  .media-icon {
+    display: flex;
+    grid-template-columns: auto;
+  }
 
-  .card1, .card2, .card3 {
-    width: 100%;
-    background-size: cover;
-    margin-bottom: 20px;
-  } */
+  .join {
+    width: 393px;
+    height: 275px;
+    left: 0;
+    top: 4.5px;
+  }
 
+  .suscribe h2 {
+    width: 235px;
+    height: 27px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16;
+    padding: 0px;
 
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
 }
