@@ -200,6 +200,7 @@ nav i {
   max-width: 270px;
   max-height: 132px;
   padding: 5px 69px 5px;
+  border: none;
 }
 
 .btn-orange {
