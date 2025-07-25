@@ -659,44 +659,276 @@ nav i {
   text-decoration-line: underline;
 }
 
-
 /* responsive */
 
-
 @media screen and (max-width: 576px) {
-
-  nav ul.linkhide{
+  nav ul.linkhide {
     display: none;
   }
- .banner{
+  .banner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner-left {
+    align-items: flex-start;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  .banner-left h2,
+  .banner-left p {
+    width: 100%;
+    text-align: left;
+  }
+  .banner img {
+    order: -1;
+    width: 100%;
+    height: auto;
+  }
+
+  .plants {
+    max-width: 393px;
+    height: 1650px;
+    left: 150px;
+    top: 802px;
+    margin-bottom: px;
+  }
+
+  .plants-title {
+    max-width: 393px;
+    max-height: 89px;
+    margin-top: 260px;
+    margin-bottom: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .plants-title h2 {
+    width: 393px;
+    height: 33px;
+    margin: 18px 0px;
+    gap: 16;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .plants-title p {
+    width: 393px;
+    height: 68px;
+    gap: 16;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .flower-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 393px;
+    max-height: 1500px;
+  }
+  .flower-card-1to8 {
+    max-width: 393px;
+    max-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30;
+    padding: px;
+    margin: 50px 0px;
+    padding: 29px 2px;
+  }
+
+  .description-tk-button h6 {
+    max-width: 196px;
+    max-height: 80px;
+    padding: 5px 5px;
+    color: rgb(17, 17, 17);
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .description-tk-button span {
+    max-width: 99px;
+    max-height: 12px;
+    gap: 10;
+    margin: 10px;
+    color: rgb(17, 17, 17);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .flower-card-1to8 img {
+    max-width: 394px;
+    max-height: 196.5px;
+    margin-bottom: 0px 0px;
+  }
+
+  .plantlover {
+    display: grid;
+    max-width: 393px;
+    height: 396px;
+    margin-top: 280px;
+  }
+.plantlover-title{
+   max-width: 361px;
+  max-height: 234px;
   flex-direction: column;
-  align-items: center;
- }
- .banner-left{
-   align-items: flex-start;
-   padding: 10px;
-   margin: 20px 0;
- }
- .banner-left h2, .banner-left p{
-  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 0px;
+  margin: 18px 0px;
+}
+
+.plantlover-title h2 {
+  max-width: 330px;
+  max-height: 100px;
+  display: flex;
+  gap: 16;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
   text-align: left;
- }
- .banner img{
-  order: -1;
+  flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+}
+.plantlover-title ul li p {
+  max-width: 361px;
+  max-height: 210px;
+  gap: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 20px auto;
+}
+.plantlover-title ul {
+  max-width: 361px;
+  max-height: 51px;
+}
+.plant-image{
   width: 100%;
   height: auto;
- }
-
-
-
-
-
-
-
-
-  
 }
-  
+.trusted-badge{
+  display: none;
+}
 
 
 
+
+.latest{
+  width: 393px;
+  height: 117px;
+  margin-top: 420px;
+  margin-bottom: 100px;
+}
+.latest h2{
+  width: 393px;
+  height: 33px;
+  margin: 16px 0px;
+  gap: 16;
+  font-size: 24px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0%;
+text-align: center;
+}
+.latest p{
+  width: 336px;
+height: 68px;
+gap: 16;
+padding: 0px;
+margin: 16px 0px;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+/* .plantnow {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card,
+  .card3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  } */
+
+
+  /*  */
+
+
+   /* .plantnow {
+    flex-direction: column;
+  }
+
+  .card1, .card2, .card3 {
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 20px;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
